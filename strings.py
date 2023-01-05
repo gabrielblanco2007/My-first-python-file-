@@ -20,3 +20,8 @@ print(my_new_line_string)
 
 my_new_line_string = "\tThis is a string with a tabulation"
 print(my_new_line_string)
+
+#with tabulation and line break
+
+my_new_line_string = "\tThis is a string with \na tabulation"
+print(my_new_line_string)

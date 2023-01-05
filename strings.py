@@ -25,3 +25,10 @@ print(my_new_line_string)
 
 my_new_line_string = "\tThis is a string with \na tabulation"
 print(my_new_line_string)
+
+# Format
+
+name, surname, age = "Gabriel", "Blanco", 15
+
+print("My name is %s %s and my age is %s".format(name, surname, age))
+print("My name is %s %s and my age is %s" %(name, surname, age))
